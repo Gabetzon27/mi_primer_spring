@@ -14,4 +14,18 @@ public class hola {
 
 
     }
+
+
+
+
+
+
+ @GetMapping("/chao")
+    public String chao() {
+    return "!chao¡";
+
+    }
+
+
+
 }
